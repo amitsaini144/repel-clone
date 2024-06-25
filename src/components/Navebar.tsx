@@ -1,8 +1,7 @@
 'use client'
 
 import React from 'react';
-import Link from 'next/link';
-import { SignedIn, SignedOut, SignInButton, SignOutButton, UserButton, useUser } from '@clerk/nextjs';
+import { SignInButton, UserButton, useUser } from '@clerk/nextjs';
 
 function Navbar() {
     const user = useUser()
